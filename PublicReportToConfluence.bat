@@ -1,4 +1,4 @@
-set FilePath=C:\Users\PIX01\.jenkins\workspace\cs_datastaging\log.html
+set FilePath=C:\Users\PIX01\.jenkins\workspace\cs_datastaging\log.htmls
 set SUBFILENAME=date /t
 
 for /F "tokens=2" %%i in ('date /t') do set mydate=%%i
