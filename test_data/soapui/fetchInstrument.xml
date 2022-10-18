@@ -1,0 +1,20 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.instrument.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:fetchInstrument>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <instrument>
+
+               <sedol>0007272</sedol>
+
+            </instrument>
+            <!--Optional:-->
+
+            <priceSource>0</priceSource>
+
+         </arg0>
+      </ws:fetchInstrument>
+   </soapenv:Body>
+</soapenv:Envelope>

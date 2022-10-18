@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.ci.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getIndividual>
+         <!--Optional:-->
+         <arg0>
+            <personNumber>01095332000</personNumber>
+         </arg0>
+      </ws:getIndividual>
+   </soapenv:Body>
+</soapenv:Envelope>

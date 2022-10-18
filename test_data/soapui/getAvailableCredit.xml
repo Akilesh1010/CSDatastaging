@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.person.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getAvailableCredit>
+         <!--Optional:-->
+         <arg0>
+            <clientNumber>4432652</clientNumber>
+
+         </arg0>
+      </ws:getAvailableCredit>
+   </soapenv:Body>
+</soapenv:Envelope>

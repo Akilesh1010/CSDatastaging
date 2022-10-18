@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.exchangerate.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getExchangeRateTable>
+         <!--Optional:-->
+         <arg0>
+            <!--Zero or more repetitions:-->
+            <currencies>USD</currencies>
+            <!--currencies>EUR</currencies;-->
+            <currencies>GBP</currencies>
+            <!--Optional:-->
+            <mode>*EXTEL</mode>
+         </arg0>
+      </ws:getExchangeRateTable>
+   </soapenv:Body>
+</soapenv:Envelope>

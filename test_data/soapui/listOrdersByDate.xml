@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.order.figaro.jhc/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <ws:listOrdersByDate>
+      <!--Optional:-->
+      <arg0>
+        <!--Optional:-->
+        <accountReference>0100021</accountReference>
+        <basicOrderList>false</basicOrderList>
+        <externalOrderRefsRequired>false</externalOrderRefsRequired>
+        <!--Optional:-->
+        <fromDate>2021-09-20</fromDate>
+        <!--Optional:-->
+        <toDate>2021-09-21</toDate>
+   </arg0>
+  </ws:listOrdersByDate>
+ </soapenv:Body>
+</soapenv:Envelope>

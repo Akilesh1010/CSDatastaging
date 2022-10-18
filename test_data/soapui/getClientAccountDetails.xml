@@ -1,0 +1,19 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.person.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getClientAccountDetails>
+         <!--Optional:-->
+         <arg0>
+            <clientNumber>4810516</clientNumber>
+            <!--Optional:-->
+            <exchangeRateMode>FOREX</exchangeRateMode>
+            <isaOption></isaOption>
+            <excludeCalculations></excludeCalculations>
+            <includeDeletedCurrencyAccounts></includeDeletedCurrencyAccounts>
+            <useCliCredit></useCliCredit>
+            <!--Optional:-->
+            <cliCreditRecordType></cliCreditRecordType>
+         </arg0>
+      </ws:getClientAccountDetails>
+   </soapenv:Body>
+</soapenv:Envelope>

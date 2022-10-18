@@ -1,0 +1,33 @@
+*** Variable ***
+@{xml_legal_entity_getClientDetails_attribute}         clientRef
+...             entityType
+...             formalSalutation
+...             name
+...             title
+...             forename
+...             surname
+...             addressLine1
+...             addressLine2
+...             addressLine3
+...             addressLine4
+...             addressLine5
+...             postcode
+...             emailAddress
+...             countryOfResidence
+...             dateOfBirth
+
+@{GQL_legal_entity_getClientDetails_attribute}          personId
+...             legalEntityTypeCode
+...             salutation
+...             title
+...             forename
+...             surname
+...             addressLine1
+...             addressLine2
+...             addressLine3
+...             addressLine4
+...             addressLine5
+...             postCode
+...             emailAddress
+...             countryOfResidence
+...             dateOfBirth

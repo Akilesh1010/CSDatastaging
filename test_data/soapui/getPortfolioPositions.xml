@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.portfolio.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getPortfolioPositions>
+         <!--Optional:-->
+         <arg0>
+            <cashRequired>true</cashRequired>
+            <clientDetailsRequired>true</clientDetailsRequired>
+            <exchangeRatesRequired>true</exchangeRatesRequired>
+            <includeAccruedInterest>false</includeAccruedInterest>
+            <includeNegativeHoldings>true</includeNegativeHoldings>
+            <person>00660012216</person>
+            <realTimePrice>true</realTimePrice>
+         </arg0>
+      </ws:getPortfolioPositions>
+   </soapenv:Body>
+</soapenv:Envelope>

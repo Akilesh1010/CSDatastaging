@@ -1,0 +1,38 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.portfolio.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getClientPortfolio>
+         <!--Optional:-->
+         <arg0>
+            <!--Optional:-->
+            <accountReference>0100021</accountReference>
+            <basicPortfolio>false</basicPortfolio>
+            <byDepot>true</byDepot>
+            <calculateStockSequence></calculateStockSequence>
+            <cashRequired>false</cashRequired>
+            <!--Optional:-->
+            <currency>GPB</currency>
+            <!--Optional:-->
+            <date>?</date>
+            <!--Optional:-->
+            <exchangeRateType>VALUATION_TO_MARKET</exchangeRateType>
+            <excludeAvailableSettledQuantity>false</excludeAvailableSettledQuantity>
+            <includeAccruedDividends>true</includeAccruedDividends>
+            <includingNegativeHoldings>false</includingNegativeHoldings>
+            <includingZeroHoldings>false</includingZeroHoldings>
+            <!--Zero or more repetitions:-->
+            <ledgers>1</ledgers>
+            <ledgers>3</ledgers>
+            <ledgers>4</ledgers>
+            <ledgers>9</ledgers>
+            <!--Optional:-->
+            <priceType>
+            	<!--1: Real time (15 min delayed), 2: Delayed (overnight)-->
+               <dataType>1</dataType>
+               <!--1: Mid, 2: Bid, 3: Ask-->
+               <priceType>1</priceType>
+            </priceType>
+         </arg0>
+      </ws:getClientPortfolio>
+   </soapenv:Body>
+</soapenv:Envelope>

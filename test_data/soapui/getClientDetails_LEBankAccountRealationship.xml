@@ -1,0 +1,13 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.person.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getClientDetails>
+         <!--Optional:-->
+         <arg0>
+            <personReference>00000546572</personReference>
+            <returnAccounts>true</returnAccounts>
+
+         </arg0>
+      </ws:getClientDetails>
+   </soapenv:Body>
+</soapenv:Envelope>

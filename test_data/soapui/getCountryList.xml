@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.market.figaro.jhc/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:getCountryList>
+      <arg0>
+      <iso3>GBR</iso3>
+      </arg0>
+
+      </ws:getCountryList>
+
+   </soapenv:Body>
+</soapenv:Envelope>
